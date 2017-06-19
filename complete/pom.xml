@@ -34,7 +34,6 @@
     </dependencies>
 
     <properties>
-		<docker.image.prefix>springio</docker.image.prefix>
 	    <maven.compiler.source>1.8</maven.compiler.source>
 	    <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
@@ -46,7 +45,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.4.11</version>
 				<configuration>
-					<imageName>dockertestvivek/myproject</imageName>
+					<imageName>dockertestvivek/gs-spring-boot</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
 						<resource>
